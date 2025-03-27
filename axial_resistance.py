@@ -1,6 +1,8 @@
 '''
 Calculation of axial resistance based on simultaneous soma-bleb patch recordings.
 Data from Hu and Bean (2018): https://zenodo.org/record/3539297
+
+For this to work, the data (.abf files) must downloaded into the shared/data folder.
 '''
 from shared.data.hu_bean_shared import *
 import numpy as np
